@@ -1,6 +1,6 @@
 <mvc:View controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc">
+   xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
     <Button text="{i18n>showHelloButtonText}" press=".onShowHello"/>
     <Input
         value="{/recipient/name}"
